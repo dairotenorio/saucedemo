@@ -1,0 +1,18 @@
+{
+  "name": "saucedemo",
+  "version": "1.0.0",
+  "description": "Front-End Testcafe challenge exercise",
+  "main": "index.js",
+  "scripts": {
+    "test-all-multi-browser-mac": "testcafe chrome,firefox,safari './page_model/test/**'",
+    "test-all-chrome-mac": "testcafe chrome './page_model/test/**'",
+    "test-all-multi-browser-win": "testcafe chrome,firefox,safari \"./page_model/test/**\"",
+    "test-all-chrome-win": "testcafe chrome \"./page_model/test/**\""
+  },
+  "author": "Dairo Tenorio",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "testcafe": "^1.12.0"
+  }
+}
