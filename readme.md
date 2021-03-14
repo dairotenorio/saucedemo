@@ -7,7 +7,7 @@
     Installation of framework
 
 ## Versions
-    It is recommended to use the versions listed below for the following packages to guarantee a correct functionality:
+    It's recommended to use the versions listed below for the following packages to guarantee a correct functionality:
     - node version = 12.18.4
     - npm version  >= 6.14.5
     - testcafe >= 1.12.0
