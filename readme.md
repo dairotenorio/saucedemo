@@ -14,7 +14,7 @@
     - dotenv >= 8.2.0
 
 ## Clone and update
-    Clone the repository: https://github.com/dairotenorio/saucedemo
+    Clone the repository on GIT: https://github.com/dairotenorio/saucedemo
     Update to the main branch and then run commands
  
 **Install Dependencies**
