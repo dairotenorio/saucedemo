@@ -28,3 +28,5 @@
                     `npm run test-all-chrome-mac`		
     - For Windows: 	`npm run test-all-multi-browser-win`
                     `npm run test-all-chrome-win`
+    Important Notes: If we get an error during the execution the report won't open automatically, in that case the command 
+    `npm run report` should be executed to see the error

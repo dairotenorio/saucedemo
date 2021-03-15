@@ -4,15 +4,17 @@
   "description": "Front-End Testcafe challenge exercise",
   "main": "index.js",
   "scripts": {
-    "test-all-multi-browser-mac": "testcafe chrome,firefox,safari './page_model/test/**'",
-    "test-all-chrome-mac": "testcafe chrome './page_model/test/**'",
-    "test-all-multi-browser-win": "testcafe chrome,firefox,safari \"./page_model/test/**\"",
-    "test-all-chrome-win": "testcafe chrome \"./page_model/test/**\""
+    "test-all-multi-browser-mac": "testcafe chrome,firefox,safari './page_model/test/**'  --reporter html:./page_model/reports/reports.html && open ./page_model/reports/reports.html",
+    "test-all-chrome-mac": "testcafe chrome './page_model/test/**' --reporter html:./page_model/reports/reports.html && open ./page_model/reports/reports.html",
+    "test-all-multi-browser-win": "testcafe chrome,firefox,safari \"./page_model/test/**\"  --reporter html:./page_model/reports/reports.html && open ./page_model/reports/reports.html",
+    "test-all-chrome-win": "testcafe chrome \"./page_model/test/**\"  --reporter html:./page_model/reports/reports.html && open ./page_model/reports/reports.html",
+    "report": "open ./page_model/reports/reports.html"
   },
   "author": "Dairo Tenorio",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "testcafe": "^1.12.0"
+    "testcafe": "^1.12.0",
+    "testcafe-reporter-html": "^1.4.6"
   }
 }
