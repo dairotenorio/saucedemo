@@ -6,9 +6,10 @@
   "scripts": {
     "test-all-multi-browser-mac": "testcafe chrome,firefox,safari './page_model/test/**'  --reporter html:./page_model/reports/reports.html && open ./page_model/reports/reports.html",
     "test-all-chrome-mac": "testcafe chrome './page_model/test/**' --reporter html:./page_model/reports/reports.html && open ./page_model/reports/reports.html",
-    "test-all-multi-browser-win": "testcafe chrome,firefox,safari \"./page_model/test/**\"  --reporter html:./page_model/reports/reports.html && open ./page_model/reports/reports.html",
-    "test-all-chrome-win": "testcafe chrome \"./page_model/test/**\"  --reporter html:./page_model/reports/reports.html && open ./page_model/reports/reports.html",
-    "report": "open ./page_model/reports/reports.html"
+    "test-all-multi-browser-win": "testcafe chrome,firefox,safari \"./page_model/test/**\"  --reporter html:./page_model/reports/reports.html && start ./page_model/reports/reports.html",
+    "test-all-chrome-win": "testcafe chrome \"./page_model/test/**\"  --reporter html:./page_model/reports/reports.html && start ./page_model/reports/reports.html",
+    "report-mac": "open ./page_model/reports/reports.html",
+    "report-win": "start ./page_model/reports/reports.html"
   },
   "author": "Dairo Tenorio",
   "license": "ISC",
