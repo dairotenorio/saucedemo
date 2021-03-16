@@ -24,6 +24,6 @@ export const USERINFO = {
     MISSING_MAIL_INFORMATION: {
         FIRSTNAME: 'First Name',
         LASTNAME: 'Last Name',
-        POSTALCODE: ''
+        POSTALCODE: '\n'
     }
 }
